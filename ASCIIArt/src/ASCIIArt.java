@@ -17,11 +17,47 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void Skewer() {
+		 System.out.println("             o ");
+		 System.out.println("             | ");
+		 System.out.println("             | ");
 	}
+	
+	public static void Bun() {
+		 System.out.println("    ___________________ ");
+		 System.out.println("   ( ' ' '  '   ' ' '  )");
+		 System.out.println("  ( '      '    '    '  )");
+		 System.out.println("   (_'___'___'__'_'__'_)");
+	
+	}
+	public static void Meat() {
+		System.out.println("   _____________________  ");
+		System.out.println("  (_____________________)  ");
+			} 
+	public static void Lettuce() {
+		System.out.println(" <vWWvWWVWVWVVWWVWVWVWVWV>  ");
+
+			} 
+	public static void CheeseBun() {
+		System.out.println("  (  ',           ,'    ) ");
+		System.out.println("  (____',       ,'______)");
+		System.out.println("         ',   ,' ");
+		System.out.println("           '.'   ");
+			} 
+	
+    public static void main(String[] args) {
+    	Skewer();
+    	Bun();
+    	Lettuce();
+    	Meat();
+    	CheeseBun();
+        Lettuce();
+        Lettuce();
+        Meat();
+        Lettuce();
+        Meat();
+        CheeseBun();
+        System.out.println("This is a double cheese burger with a sandwich skewer at the top to keep it together");
+    }
+    
 }
